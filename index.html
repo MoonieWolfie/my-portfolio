@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<title>Firdausi Garba Adamu - Portfolio</title>
+
+	<link rel="stylesheet" href="icon/icofont.min.css">
+			<!-- for offline -->
+
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icon@1.8.1/font/bootstrap-icons.css"> -->
+			<!-- for online  -->
+	
+	<style type="text/css">
+		@import.url('https://fonts.googleapis.com/css2?family=palette+mosaic&family=Quinessential&display=swap')
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Quinessential', cursive;
+		}
+		/*to retain the size of the website*/
+
+		.navigation {
+			position: fixed;
+			background: #000;
+			width: 100%;
+			height: 60px;
+			display: flex;
+			justify-content: center;  
+			align-items: center; 
+		}
+
+		.navigation div a {
+			color: #ffffff;
+			font-size: 20px;
+			text-decoration: none;
+		}
+
+		.navigation div {
+			margin: 0 15px;
+			color: white;
+		}
+
+		.hero {
+			background: #dfa164;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.hero p {
+			color: #ffffff;
+		}
+
+		.hero img{
+			border-radius: 50%;
+			width: 250px;
+			height: 250px;
+			margin-bottom: 10px;
+		}
+
+        .hero p{
+        	font-size: 20px;
+        	text-align: center;
+        }
+
+        .container {
+        	margin: 1.5em 4.5em;
+        }
+
+        .container h1, .container p {
+        	text-align: center;
+        }
+
+        .skills {
+        	display: flex;
+        	justify-content: space-around;
+        	align-items: center;
+        	text-align: center;
+        }
+
+        .skill {
+        	width: 200px;
+        	text-align: center;
+        	margin: 10px;
+        	padding: 10px 20px;
+        	background: #f1f1f1;
+        	border-radius: 10px;
+        }
+
+        .skill:hover {
+        	background: #000;
+        	color: #f1f1f1;
+        }
+
+        .projects {
+        	display: flex;
+        	justify-content: space-around;
+        	align-items: center;
+        	flex-wrap: wrap;
+        }
+
+        .project {
+        	width: 45%;
+        	text-align: center;
+            margin: 15px;
+        }
+
+        .projects a:hover{
+        	border-bottom: 2.5px #2e2e2e solid;
+            border-bottom-width: thick;
+        }
+        .project a {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 18px;
+        }
+
+        .text {
+        	font-size: 18px;
+        }
+
+        .footer {
+        	width: 100%;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	background: #dfa164;
+        	margin-top: 15px;
+        	padding: 15px;
+        	flex-direction: column;
+        }
+
+        .footer div {
+        	width: 50%;
+        }
+
+        input[type=text], input[type=email], textarea, button[type=submit] {
+        	width: 100%;
+        	padding: 12px 20px;
+        	margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        	}
+
+        .red:hover {
+        	background: #000;
+        	color: #f1f1f1;
+
+        }
+
+        .social {
+        	display: flex;
+        	justify-content: space-between;
+        	align-items: center;
+        	margin-top: 15px;
+        }
+
+        .social li {
+        	list-style-type: none;
+        }
+
+        .social a {
+        	text-decoration: none;
+        	color: white;
+        	font-size: 20px;
+        	margin: 5px 15px;
+        }
+
+        .social i{
+        	font-size: 20px;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="navigation" id="who">
+		<div><a href="index.html">FIRDAUSI</a></div>
+		<div>||</div>
+		<div><a href="#who">WHO</a></div>
+	</div>
+
+		<div class="hero">
+			<img src="MyPhoto.jpg" alt="my profile pic">
+			<p>Assalamu alaikum, I am firdausi. A fullstack Developer.</p>
+			<ul class="social">
+				<li><a href="https://facebook.com"><i class="icofont-facebook"></i></a></li>
+				<li><a href="https://instagram.com"><i class="icofont-instagram"></i></a></li>
+				<li><a href="https://twitter.com"><i class="icofont-twitter"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h1>WHO</h1>
+			<p class="text">My name is Firdausi Garba Adamu. I am a Web developer and in my leisure time i also design and make bags. I like designing in general and thats what motivates me to try to excel in my designs and also make my works unique. I am self employed, though i accept contract from other companies and also design websites for them, which also helps me cause it increases my experience in the field of wed development and pave way for me to meet other developers.</p>
+		</div>	
+
+	    <div class="container">
+			<h1>SKILLS</h1>
+			<p class="text">These are the skills that i excel in:</p>
+
+			<div class="skills">
+				<div class="skill"><h2>HTML</h2></div>
+				<div class="skill"><h2>CSS</h2></div>
+				<div class="skill"><h2>JavaScript</h2></div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<h1>PROJECT</h1>
+			<p class="text">Below are some of the projects i have worked on:</p>
+
+			<div class="projects">
+				<div class="project"><a href="#">Project 1</a></div>
+				<div class="project"><a href="#">Project 2</a></div>
+				<div class="project"><a href="#">Project 3</a></div>
+				<div class="project"><a href="#">Project 4</a></div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<h1 style="text-align: center; color: white; ">CONTACT ME</h1>
+			<form name="contact" method="POST" data-netlify="true">
+				<input type="text" name="fullname" placeholder="Enter full name">
+				<input type="email" name="email" placeholder="Enter email">
+				<textarea name="message"></textarea>
+				<!-- <input class="red" type="button" name="" value="Submit"> -->
+				<button class="red" type="submit">submit</button>
+			</form>
+
+			<p style="color: white; margin-top: 10px;">Crafted with <i class="icofont-heart"></i> by Firdausi Garba</p>
+		</div>	
+
+
+</body>
+</html> 
