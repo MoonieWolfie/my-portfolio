@@ -12,14 +12,17 @@
 			<!-- for online  -->
 	
 	<style type="text/css">
-		@import.url('https://fonts.googleapis.com/css2?family=palette+mosaic&family=Quinessential&display=swap')
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-			font-family: 'Quinessential', cursive;
-		}
-		/*to retain the size of the website*/
+		@import.url('https://fonts.googleapis.com/css2?family=palette+mosaic&family=Quinessential&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+  		font-family: 'Quinessential', cursive;
+
+	}
+
+	
 
 		.navigation {
 			position: fixed;
@@ -174,6 +177,12 @@
 
         .social i{
         	font-size: 20px;
+        }
+
+        @media screen and (max-width: 480px) {
+        	.skill {
+        		flex-direction: column;
+        	}
         }
 
 	</style>
